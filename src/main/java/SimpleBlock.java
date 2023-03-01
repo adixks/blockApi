@@ -7,14 +7,17 @@ public class SimpleBlock implements Block {
         this.material = material;
     }
 
+    @Override
     public String getColor() {
         return color;
     }
 
+    @Override
     public String getMaterial() {
         return material;
     }
 
+    @Override
     public String toString() {
         return "SimpleBlock{color='" + color + "', material='" + material + "'}";
     }
